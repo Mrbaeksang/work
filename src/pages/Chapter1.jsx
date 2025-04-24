@@ -91,6 +91,24 @@ function Chapter1() {
     <button className="delete-button" onClick={() => handleDelete(0)}>
       🗑
     </button>
+    <div className="link-item">
+  <a href="https://homework5-sandy.vercel.app/" target="_blank" rel="noopener noreferrer">
+    📝 숙제
+  </a>
+  <button className="delete-button" onClick={() => handleDelete(0)}>
+    🗑
+  </button>
+</div>
+<div className="link-item">
+  <a href="https://homework6-puce-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
+    🐱 고양이
+  </a>
+  <button className="delete-button" onClick={() => handleDelete(0)}>
+    🗑
+  </button>
+</div>
+
+    
   </div>
   /* AUTO_INSERT_HERE */
           {links.map((link, index) => (
